@@ -1,10 +1,11 @@
 import React from 'react';
 import Common from './Common';
+import image from "./images/slide-2.gif"
 const Home = () =>{
     return <>
     
     <div 
-    style = {{ backgroundImage: "url(./images/slide-2.gif)", backgroundSize: "100% 100%", backgroundRepeat : "no-repeat", overflow : "hidden" }} 
+    style = {{ backgroundImage: `url(${image})`, backgroundSize: "100% 100%", backgroundRepeat : "no-repeat", overflow : "hidden" }} 
     className="slide">
 
     <div className="wrapper">
