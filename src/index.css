@@ -14,12 +14,42 @@ code {
 
 
 .active_menu{
-  color:aquamarine;
+ color: #FC6D6D !important;
   border-bottom: 1px solid skyblue;
+}
+.nav-link{
+  margin-left: 15px;
 }
 .nav-heading{
   font-weight: bold;
   font-variant: small-caps;
+}
+.social-buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.neo-button {
+  text-shadow: 2px 2px #FFf;
+  color: rgba(247, 7, 7, 0.767);
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 11px;
+  transition: all 0.15s linear;
+  background: linear-gradient(145deg, #FC6D6D, #4da7db);
+  /* box-shadow: 6px 6px 13px #489dcf, -6px -6px 13px #FC6D6D */
+}
+
+.neo-button:hover {
+  text-shadow: 2px 2px #555555;
+
+  color: #fff;
+  border: none;
+  outline: none;
+  background: linear-gradient(145deg, #4da7db, #FC6D6D);
+  /* box-shadow: inset 6px 6px 13px #FC6D6D, inset -6px -6px 13px #489dcf */
 }
 .color{
   color:rgba(19, 127, 228, 0.705);
@@ -135,88 +165,11 @@ img{
   justify-content: center;
   align-items: center;
 }
-.wrapper{
-  display: inline-flex;
-}
 
-.wrapper .static-text{
-  color: rgb(26, 15, 168);
-  font-size: 60px;
-  font-weight: 400;
-}
-
-.wrapper .dynamic-texts{
-    margin-left: 5px;
-    height: 90px;
-    line-height: 90px;
-    /* background-color: red; */
-    overflow: hidden;
-}
-
-.dynamic-texts li{
-  color: #FC6D6D;
-  list-style: none;
-  font-size: 60px;
-  font-weight: 500;
-  position: relative;
-  animation : slide 6s steps(4) infinite; 
-
-}
-@keyframes slide {
-  0%{
-    top: 0;
-  }
-  100%{
-    top : -360px;
-  }
-  
-  
-}
-
-@-webkit-keyframes slide {
-  0%{
-    top: 0;
-  }
-  100%{
-    top : -360px;
-  }
-}
-.dynamic-texts li span{
-  position: relative;
-}
-.dynamic-texts li span:after{
-
-content: "";
-position: absolute;
-background: #F4F6FA;
-height: 110%;
-width: 100%;
-border-left: 2px solid #FC6D6D;
-animation : typing 1.5s steps(10) infinite; 
-}
-
-@keyframes typing {
-  0%{
-    left: 0;
-  }
-  100%{
-    left: 100%;
-    margin : 0 -35px 0 35px
-  }
-  
-}
-
-@-webkit-keyframes typing {
-  0%{
-    left: 0;
-  }
-  100%{
-    left: 100%;
-    margin : 0 -35px 0 35px
-  }
-  
-}
 
 .mb-5{
   margin-bottom: 50px;
+}
+.ml-2{
+  margin-left: 10px;
 }

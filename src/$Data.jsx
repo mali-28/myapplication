@@ -1,5 +1,9 @@
-import web1 from './images/image1.png';
-import web2 from './images/image2.png';
+import web1 from './images/image.gif';
+import web2 from './images/coding.gif';
+import web3 from './images/222.gif';
+import web4 from './images/creative.gif';
+import web5 from './images/new.gif';
+
 
 
 const $Data = [
@@ -12,15 +16,15 @@ const $Data = [
         title : 'App development',
     },
     {
-        imgsrc : web1,
+        imgsrc : web3,
         title : 'Mobile development',
     },
     {
-        imgsrc : web2,
+        imgsrc : web4,
         title : 'Digital marketing'
     },
     {
-        imgsrc : web1,
+        imgsrc : web5,
         title : 'Android development',
     },
     {

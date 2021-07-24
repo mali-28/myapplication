@@ -1,6 +1,5 @@
 import React from 'react';
-import web1 from './images/image1.png'
-import web2 from './images/image2.png'
+import image from './images/meeting.gif'
 import {NavLink} from 'react-router-dom';
 
 const Common = (props) =>{
@@ -24,8 +23,9 @@ const Common = (props) =>{
                         </div>
                     </div>
                     <div className='col-lg-6 col-10  pl-5  order-1 order-lg-2 header-img  d-flex justify-content-center text-wrap'>
-                    <img src={web1} className='img-fluid animated' alt='Common img1'/>
-                    <img src={web2} className='img-fluid animated' alt='Common img2'/>
+                    <img src={image} className='img-fluid animated' alt='Common img1'/>
+                    {/* <img src={web1} className='img-fluid animated' alt='Common img1'/>
+                    <img src={web2} className='img-fluid animated' alt='Common img2'/> */}
                     </div>
                     </div>
                 </div>

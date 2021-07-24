@@ -8,6 +8,13 @@ const Contact = () =>{
         msg: '',
     });
 
+    const [user, setUser] = useState({
+        fullname : '',
+        phone: '',
+        email:'',
+        msg: '',
+    });
+
     const inputEvent = (event) =>{
         const {name, value} = event.target;
 
@@ -23,6 +30,18 @@ const Contact = () =>{
     function formSubmit(e){
         e.preventDefault();
         alert(`My name is ${data.fullname}. My phone number is ${data.phone}.My email is ${data.email}.`)
+        setUser({
+            fullname : data.fullname,
+            phone: data.phone,
+            email: data.email,
+            msg: data.msg,
+        });
+        setData({
+            fullname : '',
+            phone: '',
+            email:'',
+            msg: '',
+        })
     }
         
     return <>
@@ -86,7 +105,7 @@ const Contact = () =>{
                 required></textarea>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 mb-5">
                     <button class="btn btn-primary" type="submit">Submit form</button>
                 </div>
                 </form>
