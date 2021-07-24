@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/myapplication/static/css/main.4a69873b.chunk.css",
-    "main.js": "/myapplication/static/js/main.7fe72893.chunk.js",
-    "main.js.map": "/myapplication/static/js/main.7fe72893.chunk.js.map",
+    "main.css": "/myapplication/static/css/main.1a09e2da.chunk.css",
+    "main.js": "/myapplication/static/js/main.71dfe688.chunk.js",
+    "main.js.map": "/myapplication/static/js/main.71dfe688.chunk.js.map",
     "runtime-main.js": "/myapplication/static/js/runtime-main.c1ec9ef5.js",
     "runtime-main.js.map": "/myapplication/static/js/runtime-main.c1ec9ef5.js.map",
     "static/css/2.4be38407.chunk.css": "/myapplication/static/css/2.4be38407.chunk.css",
-    "static/js/2.a0a52a49.chunk.js": "/myapplication/static/js/2.a0a52a49.chunk.js",
-    "static/js/2.a0a52a49.chunk.js.map": "/myapplication/static/js/2.a0a52a49.chunk.js.map",
+    "static/js/2.651b5e13.chunk.js": "/myapplication/static/js/2.651b5e13.chunk.js",
+    "static/js/2.651b5e13.chunk.js.map": "/myapplication/static/js/2.651b5e13.chunk.js.map",
     "index.html": "/myapplication/index.html",
     "static/css/2.4be38407.chunk.css.map": "/myapplication/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.4a69873b.chunk.css.map": "/myapplication/static/css/main.4a69873b.chunk.css.map",
-    "static/js/2.a0a52a49.chunk.js.LICENSE.txt": "/myapplication/static/js/2.a0a52a49.chunk.js.LICENSE.txt",
+    "static/css/main.1a09e2da.chunk.css.map": "/myapplication/static/css/main.1a09e2da.chunk.css.map",
+    "static/js/2.651b5e13.chunk.js.LICENSE.txt": "/myapplication/static/js/2.651b5e13.chunk.js.LICENSE.txt",
+    "static/media/222.2380e25c.gif": "/myapplication/static/media/222.2380e25c.gif",
+    "static/media/coding.2454c4b6.gif": "/myapplication/static/media/coding.2454c4b6.gif",
+    "static/media/creative.d78368a4.gif": "/myapplication/static/media/creative.d78368a4.gif",
+    "static/media/image.d4a402f4.gif": "/myapplication/static/media/image.d4a402f4.gif",
+    "static/media/meeting.34957a23.gif": "/myapplication/static/media/meeting.34957a23.gif",
+    "static/media/new.4ed518a9.gif": "/myapplication/static/media/new.4ed518a9.gif",
     "static/media/slide-2.548e0f46.gif": "/myapplication/static/media/slide-2.548e0f46.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c1ec9ef5.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.a0a52a49.chunk.js",
-    "static/css/main.4a69873b.chunk.css",
-    "static/js/main.7fe72893.chunk.js"
+    "static/js/2.651b5e13.chunk.js",
+    "static/css/main.1a09e2da.chunk.css",
+    "static/js/main.71dfe688.chunk.js"
   ]
 }
